@@ -1,0 +1,81 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+.bg-yellow{
+    background-color:#B50945;
+}
+
+.nav-link{
+    color: rgb(248, 244, 244) !important;
+    
+}
+
+.content-homepage{
+    color: rgb(250, 248, 248) !important;    
+    padding-top: 04%;
+    padding-bottom: 04%;
+}
+.container{
+  height: auto;
+  width: auto;
+  padding: 100px;
+ 
+  
+}
+
+.navbar-brand{
+    color: white !important;
+    
+}
+.navbar a{
+    font-family: 'Comfortaa', cursive !important;
+}
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color:white;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: white;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 700px;  
+}
+
+.centered h2{
+  font-family: 'Comfortaa', cursive !important;
+  font-weight: bolder;
+  font-size: 75px;
+}
+.centered p{
+  font-size: 15px;
+  font-family: 'Comfortaa', cursive !important;
+  font-style: normal;
+}
+
+
