@@ -1,11 +1,12 @@
 @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 .bg-yellow{
-    background: grey;
+    background-color: rgb(243, 119, 88);
+    height: 100px;
 }
 
 .nav-link{
-    color: black !important;
+    color: white !important;
     
 }
 
@@ -18,6 +19,7 @@
   height: auto;
   width: auto;
   padding: 100px;
+  
   
 }
 .homepage{
@@ -89,7 +91,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(https://images.pexels.com/photos/1036841/pexels-photo-1036841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-image: url(https://images.pexels.com/photos/54283/pexels-photo-54283.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 .form-wrapper{
   width: 400px;
@@ -103,6 +105,13 @@ form{
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+}
+.form-wrapper h1{
+  color: #111;
+}
+.message{
+  margin-bottom: 50px;
+  height: 100px;
 }
 h1{
   text-align: center;
@@ -159,4 +168,21 @@ input.error{
   flex-direction: column;
   align-items: center;
 }
+.form-wrapper button{
+  padding: 25px;
+  border: none;
+  background-color: coral;
+  font-family: 'Comfortaa' cursive;
+  font-size: x-large;
+  margin-top: 20px;
+}
+.form-wrapper a{
+  font-size: 25px;
+  font-family: 'Comfortaa' cursive !important;
+}
+.form-wrapper label{
+  font-size: 15px;
+  font-family: 'Comfortaa' cursive !important;
+}
+
 

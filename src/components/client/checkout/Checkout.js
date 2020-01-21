@@ -31,7 +31,7 @@ export default function Checkout(props) {
             <div className="contact-form-content">
               {/* /.title */}
 
-              <img src="https://i.pinimg.com/564x/01/1c/93/011c93285e1b367f990d8c425fac0f20.jpg" />
+              <img src="{singleProduct.imagePath}"/>
               <div className="form-result" />
               {/* /.form-result */}
             </div>
@@ -48,20 +48,17 @@ export default function Checkout(props) {
               {/* /.title */}
               <div className="single-contact-info">
                 <h3>{singleProduct.description}</h3>
-                <p>
-                  Pink and Pretty <br />
-                  Afordable
-                </p>
+                
               </div>
               {/* /.single-contact-info */}
               <div className="single-contact-info">
                 <h3>Location:</h3>
-                <p>+Kibuye </p>
+                <p>{singleProduct.location}</p>
               </div>
               e{/* /.single-contact-info */}
               <div className="single-contact-info">
                 <h3>Email:</h3>
-                <p>glasshour@co.ke</p>
+                <p>{singleProduct.email}</p>
               </div>
               {/* /.single-contact-info */}
               <div className="single-contact-info">

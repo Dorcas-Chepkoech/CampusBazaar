@@ -15,18 +15,18 @@ function Navbar () {
         </a>
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-            <a className="nav-link" href="/">
+            <a className="nav-link" href="/main">
               Home
             </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/about">
-              About Us
-            </a>
-          </li>
+          </li>          
           <li className="nav-item">
             <a className="nav-link" href="/products">
               Products
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/add-product">
+              Sell Stuff
             </a>
           </li>
           <li className="nav-item">
@@ -35,8 +35,8 @@ function Navbar () {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/login">
-              Login
+            <a className="nav-link" href="/">
+              Logout
             </a>
           </li>
         </ul>

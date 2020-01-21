@@ -5,7 +5,7 @@ class Signup extends Component{
     return(
       <div className="login-wrapper">
         <div className="form-wrapper">
-          <h1>Create Account</h1>
+          <h3>Create Account</h3>
           <form>
             <div className="firstname">
               <label htmlFor="firstname">Full Name</label>

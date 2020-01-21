@@ -19,6 +19,7 @@ function Contact() {
     </div>
     <button type="submit" className="contactbutton">Submit</button>
 </form>
+
 		</div>
             
     )

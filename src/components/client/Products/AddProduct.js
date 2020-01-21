@@ -57,10 +57,9 @@ export default function AddProduct(props) {
   };
 
   return (
+    <div className="main-cont"><div>
     <div className="container  add-product-container">
-      <div className="Back">
-        <i className="fa fa-arrow-left" />
-      </div>
+      
       <p className="h2 text-center">Add Product</p>
       <form onSubmit={handleSubmit}>
         <ImageUpload files={files} setFiles={setFiles} />
@@ -133,6 +132,8 @@ export default function AddProduct(props) {
           />
         </div>
       </form>
+    </div>
+    </div>
     </div>
   );
 }
