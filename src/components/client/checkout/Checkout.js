@@ -27,6 +27,7 @@ export default function Checkout(props) {
     <div>
       <div className="thm-container">
         <div className="row">
+        <h1 style={{color: "black"}}>Checkout</h1>
           <div className="col-md-8">
             <div className="contact-form-content">
               {/* /.title */}
