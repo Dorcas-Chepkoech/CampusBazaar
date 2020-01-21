@@ -39,6 +39,15 @@ app.get("/", (req, res) => {
 
 // mounting of routing middleware
 app.use(fileUpload());
+app.use(express.static("dist"));
+app.use(express.static("uploads"));
+app.use(express.static("public"));
+// app.use(expressFile());
+
+// production
+app.get("/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../dist", "index.html"));
+});
 
 app.use("/api", require("./routes/index"));
 
