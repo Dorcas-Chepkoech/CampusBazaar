@@ -32,7 +32,7 @@ export default function Products() {
   return (
     <div className="container">
       <h3 className="h3"> </h3>
-      <h1>All Products</h1>
+      <h1 style={{color: "black"}}>All Products</h1>
       <div className="row">
         {data &&
           data.map(product => {

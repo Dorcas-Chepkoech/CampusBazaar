@@ -16,8 +16,8 @@ export default function Laptops() {
                   </a>
                 </div>
                 <div className="product-content">
-                  <h3 className="title"><a href="#">Men's Shirt</a></h3>
-                  <div className="price">Ksh 110.00
+                  <h3 className="title"><a href="#">Hp Pa</a></h3>
+                  <div className="price">Ksh 11000.00
                     
                   </div>
                 </div>

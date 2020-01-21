@@ -31,7 +31,7 @@ export default function Checkout(props) {
             <div className="contact-form-content">
               {/* /.title */}
 
-              <img src="{singleProduct.imagePath}"/>
+              <img src="https://i.pinimg.com/564x/b0/67/21/b06721c456a32c05c0d264ae2ac3bf21.jpg"/>
               <div className="form-result" />
               {/* /.form-result */}
             </div>
@@ -42,7 +42,7 @@ export default function Checkout(props) {
           <div className="col-md-4">
             <div className="contact-info text-center">
               <div className="title text-center">
-                <span>Contact info</span>
+                <h1>Contact info</h1>
                 <h2>Details</h2>
               </div>
               {/* /.title */}
@@ -53,28 +53,19 @@ export default function Checkout(props) {
               {/* /.single-contact-info */}
               <div className="single-contact-info">
                 <h3>Location:</h3>
-                <p>{singleProduct.location}</p>
-              </div>
-              e{/* /.single-contact-info */}
-              <div className="single-contact-info">
-                <h3>Email:</h3>
-                <p>{singleProduct.email}</p>
+  <h3>{singleProduct.location}</h3>
+                
               </div>
               {/* /.single-contact-info */}
               <div className="single-contact-info">
-                <h3>Contact</h3>
-                <div className="social">
-                  <a href="#" className="fab fa-twitter hvr-pulse" />
-                  {/*
-                   */}
-                  <a href="#" className="fabe fa-pinterest hvr-pulse" />
-                  {/*
-                   */}
-                  <a href="#" className="fab fa-facebook-f hvr-pulse" />
-                  {/*
-                   */}
-                  <a href="#" className="fab fa-youtube hvr-pulse" />
-                </div>
+                <h3>Email:</h3>
+                <h3>dorrchep@gmail.com</h3>
+              </div>
+              {/* /.single-contact-info */}
+              <div className="single-contact-info">
+                <h3>Contact: +254 723352844</h3>
+               
+                
                 {/* /.social */}
               </div>
               {/* /.single-contact-info */}

@@ -12,9 +12,9 @@ export default function Slider() {
       <div className="carousel-item fill-ful active" style={{backgroundImage: 'url("https://images.pexels.com/photos/3568520/pexels-photo-3568520.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")'}}>
         <div className="container">
           <div className="carousel-caption">
-            <h1 className="h11">First-class social marketplace for students to save and make money.</h1><br/>
+            <h1 className="h11">First-class social marketplace for students to <br></br>save and make money.</h1><br/>
             <p className="p">At Baazar you can buy or sell books, electronics, your old clothes...exclusively at your campus!</p>
-            <p><a className="btn btn-default" href="signup" role="button">Sign Up TODAY!</a></p>
+            <p><a className="btn btn-default" href="add-product" role="button">Post an Ad!!!</a></p>
           </div>
         </div>
       </div>

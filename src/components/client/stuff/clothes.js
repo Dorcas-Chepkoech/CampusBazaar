@@ -17,7 +17,7 @@ export default function Clothes() {
                   </a>
                 </div>
                 <div className="product-content">
-                  <h3 className="title"><a href="#">Men's Shirt</a></h3>
+                  <h3 className="title"><a href="#">Scarlet Off-Shoulder</a></h3>
                   <div className="price">Ksh 110.00
                     
                   </div>
@@ -37,7 +37,7 @@ export default function Clothes() {
                   </a>
                 </div>
                 <div className="product-content">
-                  <h3 className="title"><a href="#">Women's Red Top</a></h3>
+                  <h3 className="title"><a href="#">Women's Dress</a></h3>
                   <div className="price">Ksh 110.00
                   </div>
                 </div>
@@ -56,7 +56,7 @@ export default function Clothes() {
                   </a>
                 </div>
                 <div className="product-content">
-                  <h3 className="title"><a href="#">Men's Shirt</a></h3>
+                  <h3 className="title"><a href="#">Summer Dress</a></h3>
                   <div className="price">Ksh 110.00
                   </div>
                 </div>
@@ -75,7 +75,7 @@ export default function Clothes() {
                   </a>
                 </div>
                 <div className="product-content">
-                  <h3 className="title"><a href="#">Men's Shirt</a></h3>
+                  <h3 className="title"><a href="#">Dinner Gown</a></h3>
                   <div className="price">Ksh 110.00
                   </div>
                 </div>
@@ -96,7 +96,7 @@ export default function Clothes() {
                   </a>
                 </div>
                 <div className="product-content">
-                  <h3 className="title"><a href="#">Men's Shirt</a></h3>
+                  <h3 className="title"><a href="#">Ladies Choice</a></h3>
                   <div className="price">Ksh 110.00
                     
                   </div>
@@ -135,7 +135,7 @@ export default function Clothes() {
                   </a>
                 </div>
                 <div className="product-content">
-                  <h3 className="title"><a href="#">Men's Shirt</a></h3>
+                  <h3 className="title"><a href="#">Black Lace Dress</a></h3>
                   <div className="price">Ksh 110.00
                   </div>
                 </div>
@@ -154,7 +154,7 @@ export default function Clothes() {
                   </a>
                 </div>
                 <div className="product-content">
-                  <h3 className="title"><a href="#">Men's Shirt</a></h3>
+                  <h3 className="title"><a href="#">W</a></h3>
                   <div className="price">Ksh 110.00
                   </div>
                 </div>
