@@ -14,6 +14,11 @@ import Products from "./components/client/Products/Products";
 import AddProduct from "./components/client/Products/AddProduct";
 import Checkout from "./components/client/checkout/Checkout";
 import main from "./components/client/Main/main.js"
+import Header from "./components/client/Header/Header";
+import Search from "./components/client/Search/Search";
+import Footer from "./components/client/Footer/Footer";
+
+
 
 function App() {
   return (
@@ -33,6 +38,9 @@ function App() {
           <Route path="/main" component={home}/>
           <Route path="/contact" component={Contact} />
           <Route path="/add-product" component={AddProduct} />
+          <Route path="/header" component={Header}/>
+          <Route path="/search" component={Search}/>
+          <Route path="/footer" component={Footer}/>
         </Switch>
       </Router>
     </div>

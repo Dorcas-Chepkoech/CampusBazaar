@@ -1,12 +1,13 @@
 @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 .bg-yellow{
-    background-color: rgb(3, 182, 158);
+    background-color: rgb(185, 7, 75);
     height: 100px;
 }
 
 .nav-link{
     color: white !important;
+    font-weight: 700;
     
 }
 

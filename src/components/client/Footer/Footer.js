@@ -1,74 +1,59 @@
-import React from 'react';
-import "./app.css";
+import React from 'react'
 
 export default function Footer() {
-    return (
-        <footer>
-        <div className="footer" id="footer">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-2  col-md-2 col-sm-4 col-xs-6">
-                <h3> Lorem Ipsum </h3>
-                <ul>
-                  <li> <a href="#"> Lorem Ipsum </a> </li>
-                  <li> <a href="#"> Lorem Ipsum </a> </li>
-                  <li> <a href="#"> Lorem Ipsum </a> </li>
-                  <li> <a href="#"> Lorem Ipsum </a> </li>
-                </ul>
-              </div>
-              <div className="col-lg-2  col-md-2 col-sm-4 col-xs-6">
-                <h3> Lorem Ipsum </h3>
-                <ul>
-                  <li> <a href="#"> Lorem Ipsum </a> </li>
-                  <li> <a href="#"> Lorem Ipsum </a> </li>
-                  <li> <a href="#"> Lorem Ipsum </a> </li>
-                  <li> <a href="#"> Lorem Ipsum </a> </li>
-                </ul>
-              </div>
-              <div className="col-lg-2  col-md-2 col-sm-4 col-xs-6">
-                <h3> Lorem Ipsum </h3>
-                <ul>
-                  <li> <a href="#"> Lorem Ipsum </a> </li>
-                  <li> <a href="#"> Lorem Ipsum </a> </li>
-                  <li> <a href="#"> Lorem Ipsum </a> </li>
-                  <li> <a href="#"> Lorem Ipsum </a> </li>
-                </ul>
-              </div>
-              <div className="col-lg-2  col-md-2 col-sm-4 col-xs-6">
-                <h3> Lorem Ipsum </h3>
-                <ul>
-                  <li> <a href="#"> Lorem Ipsum </a> </li>
-                  <li> <a href="#"> Lorem Ipsum </a> </li>
-                  <li> <a href="#"> Lorem Ipsum </a> </li>
-                  <li> <a href="#"> Lorem Ipsum </a> </li>
-                </ul>
-              </div>
-              <div className="col-lg-3  col-md-3 col-sm-6 col-xs-12 ">
-                <h3> Lorem Ipsum </h3>
-                <ul>
-                  <li>
-                    <div className="input-append newsletter-box text-center">
-                      <input type="text" className="full text-center" placeholder="Email " />
-                      <button className="btn  bg-gray" type="button"> Lorem ipsum <i className="fa fa-long-arrow-right"> </i> </button>
-                    </div>
-                  </li>
-                </ul>
-                <ul className="social">
-                  <li> <a href="#"> <i className=" fa fa-facebook"> &nbsp; </i> </a> </li>
-                  <li> <a href="#"> <i className="fa fa-twitter"> &nbsp; </i> </a> </li>
-                  <li> <a href="#"> <i className="fa fa-google-plus"> &nbsp; </i> </a> </li>
-                  <li> <a href="#"> <i className="fa fa-pinterest"> &nbsp; </i> </a> </li>
-                  <li> <a href="#"> <i className="fa fa-youtube"> &nbsp; </i> </a> </li>
-                </ul>
-              </div>
+  return (
+    <section id="footer">
+        <div className="container">
+          <div className="row text-center text-xs-center text-sm-left text-md-left">
+            <div className="col-xs-12 col-sm-4 col-md-4">
+              <h5>Quick links</h5>
+              <ul className="list-unstyled quick-links">
+                <li><a href="javascript:void();"><i className="fa fa-angle-double-right" />Home</a></li>
+                <li><a href="javascript:void();"><i className="fa fa-angle-double-right" />About</a></li>
+                <li><a href="javascript:void();"><i className="fa fa-angle-double-right" />FAQ</a></li>
+                <li><a href="javascript:void();"><i className="fa fa-angle-double-right" />Get Started</a></li>
+                <li><a href="javascript:void();"><i className="fa fa-angle-double-right" />Videos</a></li>
+              </ul>
             </div>
-            {/*/.row*/} 
+            <div className="col-xs-12 col-sm-4 col-md-4">
+              <h5>Quick links</h5>
+              <ul className="list-unstyled quick-links">
+                <li><a href="javascript:void();"><i className="fa fa-angle-double-right" />Home</a></li>
+                <li><a href="javascript:void();"><i className="fa fa-angle-double-right" />About</a></li>
+                <li><a href="javascript:void();"><i className="fa fa-angle-double-right" />FAQ</a></li>
+                <li><a href="javascript:void();"><i className="fa fa-angle-double-right" />Get Started</a></li>
+                <li><a href="javascript:void();"><i className="fa fa-angle-double-right" />Videos</a></li>
+              </ul>
+            </div>
+            <div className="col-xs-12 col-sm-4 col-md-4">
+              <h5>Quick links</h5>
+              <ul className="list-unstyled quick-links">
+                <li><a href="javascript:void();"><i className="fa fa-angle-double-right" />Home</a></li>
+                <li><a href="javascript:void();"><i className="fa fa-angle-double-right" />About</a></li>
+                <li><a href="javascript:void();"><i className="fa fa-angle-double-right" />FAQ</a></li>
+                <li><a href="javascript:void();"><i className="fa fa-angle-double-right" />Get Started</a></li>
+                <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i className="fa fa-angle-double-right" />Imprint</a></li>
+              </ul>
+            </div>
           </div>
-          {/*/.container*/} 
+          <div className="row">
+            <div className="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+              <ul className="list-unstyled list-inline social text-center">
+                <li className="list-inline-item"><a href="javascript:void();"><i className="fa fa-facebook" /></a></li>
+                <li className="list-inline-item"><a href="javascript:void();"><i className="fa fa-twitter" /></a></li>
+                <li className="list-inline-item"><a href="javascript:void();"><i className="fa fa-instagram" /></a></li>
+                <li className="list-inline-item"><a href="javascript:void();"><i className="fa fa-google-plus" /></a></li>
+                <li className="list-inline-item"><a href="javascript:void();" target="_blank"><i className="fa fa-envelope" /></a></li>
+              </ul>
+            </div>
+          </div>	
+          <div className="row">
+            <div className="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+              <p><u><a href="https://www.nationaltransaction.com/">National Transaction Corporation</a></u> is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]</p>
+              <p className="h6">© All right Reversed.<a className="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Sunlimetech</a></p>
+            </div>
+          </div>	
         </div>
-        {/*/.footer*/}
-        
-        {/*/.footer-bottom*/} 
-      </footer>
-    )
+      </section>
+  )
 }
