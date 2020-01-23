@@ -63,7 +63,6 @@ export default function AddProduct(props) {
       <p className="h2 text-center">Add Product</p>
       <form onSubmit={handleSubmit}>
         <ImageUpload files={files} setFiles={setFiles} />
-
         <select
           name="customSearch"
           className="custom-search-select"
