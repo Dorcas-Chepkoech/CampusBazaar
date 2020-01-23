@@ -6,9 +6,9 @@ export default function Header() {
         <div>
             <header id="header2">
         <div className="box" />
-        <h2 className="caption">Summer<br />Collection</h2>
-        <img src="http://www.pngall.com/wp-content/uploads/2016/05/Model-PNG-HD.png" className alt="" />
-        <button className="btn btn-light action">Call to Action</button>
+        <h2 className="caption">Campus<br />Bazaar</h2>
+        <img src="" className alt="" />
+        <button className="btn btn-light action">Sign Up Today!!</button>
       </header>
         </div>
     )
