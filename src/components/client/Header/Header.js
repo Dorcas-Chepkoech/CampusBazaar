@@ -8,7 +8,7 @@ export default function Header() {
         <div className="box" />
         <h2 className="caption">Campus<br />Bazaar</h2>
         <img src="" className alt="" />
-        <button className="btn btn-light action">Sign Up Today!!</button>
+        <button href="login">Sign Up Today!!</button>
       </header>
         </div>
     )

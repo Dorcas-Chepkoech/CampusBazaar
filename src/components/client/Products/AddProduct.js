@@ -57,7 +57,7 @@ export default function AddProduct(props) {
   };
 
   return (
-    <div className="main-cont"><div>
+   <div className="product-container">
     <div className="container  add-product-container">
       
       <p className="h2 text-center">Add Product</p>
@@ -68,8 +68,8 @@ export default function AddProduct(props) {
           className="custom-search-select"
           onChange={handleDropdown}
         >
-          <option>Category</option>
-          <option>Laptops</option>
+         
+          <option style={{fontFamily: "Comfortaa"}}>Laptops</option>
           <option>Phones</option>
           <option>Clothes</option>
         </select>
@@ -123,7 +123,7 @@ export default function AddProduct(props) {
           <span className="Error" />
         </div>
 
-        <div className="form-group">
+        <div className="form-grou">
           <input
             className="btn btn-primary btn-block"
             type="submit"
@@ -133,6 +133,6 @@ export default function AddProduct(props) {
       </form>
     </div>
     </div>
-    </div>
+   
   );
 }

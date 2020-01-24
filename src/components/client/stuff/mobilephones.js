@@ -6,7 +6,7 @@ export default function Phones() {
     return (
         <div>
         <div className="container">
-          <h3 className="h3"><h1>Phones</h1> </h3>
+          <h3 className="h3"><h1 style={{color: "black"}}>Phones</h1> </h3>
           <div className="row">
             <div className="col-md-3 col-sm-6">
               <div className="product-grid6">

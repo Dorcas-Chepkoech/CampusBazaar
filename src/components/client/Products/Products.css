@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
 .product-grid6,
 .product-grid6 .product-image6 {
   overflow: hidden;
 }
+
 .product-grid6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Comfortaa';
   text-align: center;
   position: relative;
   transition: all 0.5s ease 0s;
@@ -29,6 +32,9 @@
   padding: 12px 12px 15px;
   transition: all 0.5s ease 0s;
 }
+.product-grid6 .product-content title{
+  font-family: 'Comfortaa' cursive;
+}
 .product-grid6:hover .product-content {
   opacity: 0;
 }
@@ -38,6 +44,7 @@
   text-transform: capitalize;
   margin: 0 0 10px;
   transition: all 0.3s ease 0s;
+  font-family: 'Comfortaa';
 }
 .product-grid6 .title a {
   color: #000;
@@ -49,6 +56,8 @@
   font-size: 18px;
   font-weight: 600;
   color: #2e86de;
+  font-family: 'Comfortaa';
+  
 }
 .product-grid6 .price span {
   color: #999;

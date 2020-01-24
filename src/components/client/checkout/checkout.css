@@ -9,6 +9,7 @@
     margin-right: auto;
     display: block;
 }
+
 .row h1{
     margin-top: 30px;
     margin-bottom: 30px;
@@ -23,10 +24,11 @@
 
 .thm-container .title {
     margin-bottom: 50px;
+    font-family: 'Comfortaa';
 }
 
 .thm-container .title span {
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa';
     font-size: 20px;
     color: #FF4328;
 }
@@ -36,6 +38,7 @@
     font-size: 60px;
     line-height: 60px;
     font-weight: bold;
+    font-family: 'Comfortaa';
 }
 
 .contact-form input, 
@@ -65,7 +68,7 @@
     vertical-align: middle;
     background: #FEC931;
     color: #212121;
-    border-radius: 35px;
+    
     font-family: 'Comfortaa';
     font-weight: 500;
     font-size: 16px;
@@ -79,6 +82,7 @@
     border: 2px solid #EBEDF4;
     padding-top: 75px;
     padding-bottom: 80px;
+
 }
 
 .single-contact-info h4 {
@@ -86,6 +90,20 @@
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 10px;
+}
+.single-contact-info h3{
+    color: #212121;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-family: 'Comfortaa';
+}
+.single-contact-info h1{
+    color: #212121;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-family: 'Comfortaa';
 }
 
 .contact-info .social a {
@@ -99,7 +117,7 @@
     line-height: 50px;
     margin-top: 10px;
     display:inline-block;
-    font-family: FontAwesome;
+    font-family: 'Comfortaa';
     margin:5px;
 }
 

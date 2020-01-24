@@ -7,7 +7,7 @@ export default function Clothes() {
         <div>
         <div className="container">
           <h1 style={{color: "black"}}>Clothes</h1>
-          <h3 className="h3">In Stock</h3>
+          
           <div className="row">
             <div className="col-md-3 col-sm-6">
               <div className="product-grid6">

@@ -43,28 +43,29 @@ export default function Checkout(props) {
           <div className="col-md-4">
             <div className="contact-info text-center">
               <div className="title text-center">
-                <h1>Contact info</h1>
-                <h2>Details</h2>
+                
+                <h2>Contact Info</h2>
               </div>
               {/* /.title */}
               <div className="single-contact-info">
+                <h1 style={{color: "red"}}>Description:</h1>
                 <h3>{singleProduct.description}</h3>
                 
               </div>
               {/* /.single-contact-info */}
               <div className="single-contact-info">
-                <h3>Location:</h3>
-  <h3>{singleProduct.location}</h3>
+                <h1 style={{color: "red"}}>Location:</h1>
+                <h3>{singleProduct.location}</h3>
                 
               </div>
               {/* /.single-contact-info */}
               <div className="single-contact-info">
-                <h3>Email:</h3>
+                <h1 style={{color: "red"}}>Email:</h1>
                 <h3>dorrchep@gmail.com</h3>
               </div>
               {/* /.single-contact-info */}
               <div className="single-contact-info">
-                <h3>Contact: +254 723352844</h3>
+                <h1 style={{color: "red"}}>Contact:</h1><h3> +254 723352844</h3>
                
                 
                 {/* /.social */}

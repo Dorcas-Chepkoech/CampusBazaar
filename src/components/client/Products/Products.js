@@ -37,6 +37,7 @@ export default function Products() {
         {data &&
           data.map(product => {
             return (
+            
               <div className="col-md-3 col-sm-6">
                 <div className="product-grid6">
                   <div className="product-image6">
