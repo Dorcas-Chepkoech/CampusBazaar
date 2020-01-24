@@ -13,7 +13,7 @@ export default function Slider() {
         <div className="container">
           <div className="carousel-caption">
             <h1 className="h11">First-class social marketplace for students to <br></br>save and make money.</h1><br/>
-            <p className="p">At Baazar you can buy or sell books, electronics, your old clothes...exclusively at your campus!</p>
+            <p className="p">At Baazar you can buy or sell books, electronics, your old clothes...exclusively at your campus!</p><hr /><hr />
             <p><a className="btn btn-default" href="add-product" role="button">Post an Ad!!!</a></p>
           </div>
         </div>
