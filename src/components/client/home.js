@@ -5,15 +5,16 @@ import {
 } from 'reactstrap';
 import './Main/app.css';
 import Slider from './Slider/Slider';
+import Slide from './slide/slide';
 
 
 const Example = (props) => {
   return (
     <div>
-      <div className="slider">
+      {/* <div className="slider">
       <Slider style={{height: "10vh"}}/>
-      </div>
-      
+      </div> */}
+     <Slide style={{height: "10vh"}}/>
       <div className="blog-search">
       <div className="row justify-content-center">
         <div className="col-12 col-md-10 col-lg-8">
@@ -24,7 +25,7 @@ const Example = (props) => {
               </div>
               {/*end of col*/}
               <div className="col">
-                <input className="form-control form-control-lg form-control-borderless" type="search" placeholder="Search topics or keywords" />
+                <input className="form-control form-control-lg form-control-borderless" type="search" placeholder="Search Items" />
               </div>
               {/*end of col*/}
               <div className="col-auto">

@@ -46,7 +46,7 @@ app.use("/api", require("./routes/index"));
 
 // creating the server and connecting to the database
 
-const port = process.env.port;
+const port = 4000;
 
 const db = process.env.MONGO_URI_KEY;
 mongoose

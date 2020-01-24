@@ -35,7 +35,7 @@ function App() {
           <Route path="/clothes" component={Clothes} />
           <Route path="/laptops" component={Laptops} />
           <Route path="/checkout/:id" component={Checkout} />
-          <Route path="/main" component={home}/>
+          <Route path="/home" component={home}/>
           <Route path="/contact" component={Contact} />
           <Route path="/add-product" component={AddProduct} />
           <Route path="/header" component={Header}/>

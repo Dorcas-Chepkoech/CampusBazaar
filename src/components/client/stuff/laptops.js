@@ -1,4 +1,3 @@
-// 
 import React, { useState, useEffect } from "react";
 
 import ls from "local-storage";
@@ -30,15 +29,35 @@ export default function Products() {
   }, []);
 
   console.log(user);
-  return (
+  return (<div>
+       <div className="blog-search">
+      <div className="row justify-content-center">
+        <div className="col-12 col-md-10 col-lg-8">
+          <form className="card card-sm">
+            <div className="card-body row no-gutters align-items-center">
+              <div className="col-auto">
+                <i className="fas fa-search h4 text-body" />
+              </div>
+              {/*end of col*/}
+              <div className="col">
+                <input className="form-control form-control-lg form-control-borderless" type="search" placeholder="Search Items" />
+              </div>
+              {/*end of col*/}
+              <div className="col-auto">
+                <button className="btn btn-lg btn-success" type="submit">Search</button>
+              </div>
+              {/*end of col*/}
+            </div>
+          </form>
+        </div>
+        {/*end of col*/}
+      </div></div>
     <div className="container">
-      <h3 className="h3"> </h3>
-      <h1 style={{color: "black"}}>All Products</h1>
+      <h1 style={{color: "black"}}>Laptops</h1>
       <div className="row">
         {data &&
           data.map(product => {
             return (
-            
               <div className="col-md-3 col-sm-6">
                 <div className="product-grid6">
                   <div className="product-image6">
@@ -79,8 +98,9 @@ export default function Products() {
                 </div>
               </div>
             );
-          })}
+          })}{" "}
       </div>
+    </div>
     </div>
   );
 }
