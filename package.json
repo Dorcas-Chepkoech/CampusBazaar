@@ -31,7 +31,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "node server/server.js & react-scripts build",
+    "heroku-postbuild": "react-scripts build",
+    "serve": "node server",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
